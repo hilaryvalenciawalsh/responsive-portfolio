@@ -1,0 +1,84 @@
+
+    body {
+        background-image: url(https://github.com/hilaryvalenciawalsh/prework-about-me/blob/master/img/code.jpg?raw=true;)
+    }
+    nav {
+       min-height: 80px;
+    }
+    .navbar-brand {
+       font-size: 35px
+   } 
+   .nav-link {
+       font-size: 25px;    
+   }
+   .card {
+    margin: 10% 2%;  
+    padding: 50px 20px 60px 20px; 
+    width: 60rem; 
+    height: 32rem;  
+
+   }
+   .card-title {
+       font-size: 45px;
+       color:#c84646;
+   }
+   .card-text {
+       font-size: 20px;
+   }
+   .card-me {
+       width: 300px;
+       height: 300px;
+   }
+   h6 {
+       font-size: 35px;
+       color:#c84646;
+   }
+   .linkedin {
+       height: 40px;
+       width: 40px
+   }
+   .resume {
+       height: 40px;
+       width: 40px;
+       margin-left: 10px;
+   }
+
+/*style CONTACT*/
+
+   #comment {
+       font-size: 24px;
+       font-style: italic;
+       font-weight: bold;
+       color:#c84646;
+   }
+   
+/*style PORTFOLIO*/
+    
+    h1 {
+        font-size: 45px;
+        color:#c84646;
+        background:white
+    }
+    #portfolio-container {
+        margin: 10% 2%;
+        background: white;
+        padding: 30px 75px
+    }
+    .card-portfolio{
+        background:darkgrey
+    }
+    .card-name {
+        color: black;
+        font-weight: bold;
+    }
+  
+/*RESPONSIVE*/
+@media screen (min-width:401px ) and (max-width:768px) {
+
+}
+@media screen (min-width: 321px) and (max-width: 400px) {
+    
+}
+@media screen (min-width: 280px) and (max-width: 320px) {
+    
+}
