@@ -55,7 +55,7 @@ nav {
 
 /*style CONTACT*/
 p {
-font-size: 1.5vw;
+    font-size: 1.5vw;
 
 }
 
@@ -65,9 +65,11 @@ font-size: 1.5vw;
     font-weight: bold;
     color: #c84646;
 }
+
 button {
     font size: 1.5vw;
 }
+
 /*style PORTFOLIO*/
 
 h1 {
