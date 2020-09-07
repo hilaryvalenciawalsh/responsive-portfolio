@@ -22,15 +22,20 @@
         font-size: 25px;    
     }
    .card {
-        margin: 15% 2%; 
+        margin: 10% 2%; 
         float: none; 
         padding: 30px 75px; 
    }
    .card-title {
-    font-size: 45px;
-    color:#c84646;
+       font-size: 45px;
+       color:#c84646;
    }
-   
+   #comment {
+       font-size: 24px;
+       font-style: italic;
+       font-weight: bold;
+       color:#c84646;
+   }
    </style>
    <!--style end-->
 
@@ -68,18 +73,23 @@
     <!--email-->
       <label for="email">Email</label>
       <input type="email" class="form-control" id="exampleInputemail" aria-describedby="emailHelp">
+      <!--email end-->  
       <!--message-->
       <label for="message">Message</label>
         <input type="message" class="form-control" id="exampleInputmessage" aria-describedby="messageHelp">
     <!--message end-->
     <br>
-    <button type="button" class="btn btn-warning"<a href:>Send Contact Info</button>
+    <button onclick="myFunction()" type="button" class="btn btn-warning"<a href:>Send Contact Info</button>
+     <p id="comment"></p> 
     </div> </div> 
 </p>
-     <!--email end-->  
+     
 <!--card ends-->
-
-   
+<script>
+  function myFunction() {
+            document.getElementById("comment").innerHTML = "Thank you for sharing your contact information. I will respond within the next 24 hours. Have a great day!";
+          }
+  </script> 
       
   </form>
  <body>
