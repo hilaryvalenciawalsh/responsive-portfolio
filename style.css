@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://github.com/hilaryvalenciawalsh/prework-about-me/blob/master/img/code.jpg?raw=true;)
+    background-image: url(codepic.png)
 }
 
 nav {
@@ -92,4 +92,8 @@ h1 {
     color: black;
     font-weight: bold;
     font-size: 1.5vw;
+}
+
+.card-link {
+    color:#c84646
 }
